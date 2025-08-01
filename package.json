@@ -5,10 +5,11 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": " nodemon --exec babel-node ./src/server.js",
-    "staging": " nodemon --exec babel-node ./src/server.js",
-    "production": " nodemon --exec babel-node ./src/server.js",
-    "test": " nodemon --exec babel-node ./src/server.js"
+    "start": "nodemon --exec babel-node ./src/server.js",
+    "dev": "nodemon --exec babel-node ./src/server.js",
+    "staging": "node ./src/server.js",
+    "production": "node ./src/server.js",
+    "test": "nodemon --exec babel-node ./src/server.js"
   },
   "keywords": [],
   "author": "",
